@@ -11,8 +11,8 @@ A collection of C exercises and solutions from various sources.
 - Format specifiers
 - scanf()
 - C operators:
-	- Arithmatic operators
-	- Bit wise operators
+	- Arithmetic operators
+	- Bit-wise operators
 	- Assignment operators
 
 
