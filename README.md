@@ -5,12 +5,25 @@ A collection of C exercises and solutions from various sources.
 - Hello world in C
 - Comments
 - ptintf()
+- Data types
 - Escape operators
 - variables
 - Format specifiers
 - scanf()
 - C operators:
 	- Arithmatic operators
-	- Bit wise
+	- Bit wise operators
+	- Assignment operators
+
+
+### lec_2
+- C operators: (continue)
+	- Logical operators
+	- Relational operators
+
+- Conditional statements
+	- if statement
+	- switch statement
+
 
 
