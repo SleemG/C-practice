@@ -3,7 +3,7 @@ Write a C code that ask the user to enter 10 numbers,
 then ask him to enter another number to search on it
 in the 10 numbers and print its location in case it
 is found. In case the number is not found, it will
-print number no exist
+print number no exist.
 ***/
 
 #include <stdio.h>

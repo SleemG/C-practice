@@ -1,16 +1,22 @@
+/***
+Write a C code that ask the user to enter his ID,
+if the ID is valid it will ask the user to enter his
+password, if the password is correct the program will
+print the user name, if the password is incorrect the
+program will print Incorrect Password. In case of not
+existing ID, the program will print Incorrect ID
+***/
 #include<stdio.h>
 
 void main (void){
-
-/*** This Programm is to ask the user to enter his password ***/
 	
 	// Defining integer varaiables
 	int password,x,i;  
 	int backup;
 	
-	int idc,id;
+	int id_counter,id;
 	
-	for (idc=1 ; idc<=3 ; ++idc) {
+	for (id_counter=1 ; id_counter<=3 ; ++id_counter) {
 		printf ("\nPlease Enter Your ID: ");
 		scanf("%d",&id);
 		
@@ -32,12 +38,7 @@ void main (void){
 		
 	}
 	
-	
-	
-	
-	
 	for (x=1 ; x<=3 ; ++x){  // the loop will be repeated 3 times
-		
 		
 		if (id != 1234) {
 			 if (id != 5678){
@@ -69,7 +70,7 @@ void main (void){
 			}
 		
 		}else{
-				if (id== 1234 && password == 7788) {
+				if (id == 1234 && password == 7788) {
 					printf("Hi Ahmed\n");
 					break;
 				}else if (id== 5678 && password == 5566) {
@@ -87,7 +88,7 @@ void main (void){
 	
 	
 	
-	// this function is outside the loop
+	
 	if (password != 7788){
 		if (password != 5566){
 			if (password != 1122){

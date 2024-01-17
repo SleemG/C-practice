@@ -1,3 +1,8 @@
+/*
+Write a code that will ask the user to enter 3 numbers,
+the program will print the maximum number of them.
+*/
+
 #include <stdio.h>
 
 void main (void){
