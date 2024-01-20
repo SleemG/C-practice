@@ -25,5 +25,10 @@ A collection of C exercises and solutions from various sources.
 	- if statement
 	- switch statement
 
+### lec_3
+- Loops
+	- For loop
+	- While loop - do while loop
+- break and continue  
 
 
